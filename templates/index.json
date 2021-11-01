@@ -2,6 +2,18 @@
   "sections": {
     "16357774897c572e00": {
       "type": "hero",
+      "blocks": {
+        "a3c7cc6e-fa95-4367-8d4c-8b2640cdc305": {
+          "type": "collection",
+          "settings": {
+            "collection": "hollidays",
+            "image_bg": "shopify:\/\/shop_images\/MicrosoftTeams-image.png"
+          }
+        }
+      },
+      "block_order": [
+        "a3c7cc6e-fa95-4367-8d4c-8b2640cdc305"
+      ],
       "settings": {
       }
     },
