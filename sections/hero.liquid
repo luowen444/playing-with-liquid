@@ -2,12 +2,12 @@
 
 <div class='card-top-container'>
     {% for block in section.blocks %}
-    <div class='card-top'>
-        <h3>{{block.settings.collection}}</h3>
+
+        <h3>{{ block.settings.collection }}</h3>
         <p>This is a paragraph</p>
         <p>hello</p>
         <button>Click here</p>
-    </div>
+
     {% endfor %}
 </div>
 
@@ -17,11 +17,11 @@
         "blocks": [
             {
                 "type": "collection",
-                "name": "collection",
+                "name": "Collection",
                 "limit": 3,
                 "settings": [
                     {
-                        "type"："collection",
+                        "type": "collection",
                         "id": "collection",
                         "label": "collection"
                     },
@@ -36,7 +36,7 @@
                         "label": "Image Hover"
                     }
                 ]
-            },
+            }
         ],
         "presets": [
             {
