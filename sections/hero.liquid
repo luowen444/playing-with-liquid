@@ -2,7 +2,6 @@
 
 <div class='card-top-container'>
     <div class='card-top'>
-        <img src='https://static.nike.com/a/images/f_auto/dpr_3.0/w_300,c_limit/04c1f213-f370-4625-be04-1d1f833eeed4/nike-sb-dans-les-coulisses-de-nike-skateboarding.png'/>
         <h3>This is a title</h3>
         <p>This is a paragraph</p>
         <button>Click here</p>
@@ -12,6 +11,30 @@
 {% schema %}
     {
         "name": "Hero",
+        "blocks": [
+            {
+                "type": "collection",
+                "name": "collection",
+                "limit": 3,
+                "settings": [
+                    {
+                        "type"："collection",
+                        "id": "collection",
+                        "label": "collection"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_bg",
+                        "label": "Image Background"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image_hover",
+                        "label": "Image Hover"
+                    }
+                ]
+            },
+        ],
         "presets": [
             {
                 "name": "Hero"
