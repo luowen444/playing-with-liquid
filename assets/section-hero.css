@@ -1,0 +1,10 @@
+.card-top-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.coll-card {
+    border : 1px solid;
+    padding : 12px;
+    width: 200px;
+}
