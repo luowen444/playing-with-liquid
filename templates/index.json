@@ -2,6 +2,31 @@
   "sections": {
     "16357774897c572e00": {
       "type": "hero",
+      "blocks": {
+        "c990c964-e9df-49b8-9527-100f1fc86c1a": {
+          "type": "collection",
+          "settings": {
+            "collection": "hollidays"
+          }
+        },
+        "b943dffa-602d-4668-9adb-5c9b797b3e80": {
+          "type": "collection",
+          "settings": {
+            "collection": "hollidays"
+          }
+        },
+        "730612ca-e06c-42f2-bc9f-cbedf84eb868": {
+          "type": "collection",
+          "settings": {
+            "collection": "hollidays"
+          }
+        }
+      },
+      "block_order": [
+        "c990c964-e9df-49b8-9527-100f1fc86c1a",
+        "b943dffa-602d-4668-9adb-5c9b797b3e80",
+        "730612ca-e06c-42f2-bc9f-cbedf84eb868"
+      ],
       "settings": {
       }
     },
